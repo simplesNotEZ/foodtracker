@@ -1,22 +1,21 @@
 <template>
   <div>
-    <img id="spaghetOWeiner" src="@/assets/spaghetOWeiner.jpg">
     <h1 id="real-header">HUB Spots Food Reviews</h1>
+    <PicRow/>
   </div>
 </template>
 
 <script>
+import PicRow from "./PicRow.vue";
 export default {
-  name: "Header"
+  name: "Header",
+  components: {
+    PicRow
+  }
 };
 </script>
 
 <style>
-#spaghetOWeiner {
-  height: 30vh;
-  width: 30wv;
-}
-
 #real-header {
   color: green;
 }
