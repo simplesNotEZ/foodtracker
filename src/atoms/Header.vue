@@ -1,12 +1,13 @@
 <template>
-  <div>
-    <h1 id="real-header">HUB Spots Food Reviews</h1>
+  <div class="containing-div">
+    <h1>HUB Spots Food Reviews</h1>
     <PicRow/>
   </div>
 </template>
 
 <script>
 import PicRow from "./PicRow.vue";
+
 export default {
   name: "Header",
   components: {
@@ -15,8 +16,15 @@ export default {
 };
 </script>
 
-<style>
-#real-header {
-  color: green;
+<style lang="less" scoped>
+.containing-div {
+  margin: 0 0 3vh;
+  h1 {
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 8vh;
+    color: green;
+    margin: 1vh 0;
+  }
 }
 </style>

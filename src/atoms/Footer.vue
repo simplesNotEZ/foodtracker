@@ -1,7 +1,8 @@
 <template>
   <div id="footer-outer-div">
     <div id="footer-inner-div">
-      <h2>Look at these shoes!</h2>
+      <h2>The HUB</h2>
+      <p>3601 Walnut St, Denver, CO 80205</p>
     </div>
   </div>
 </template>
@@ -17,7 +18,7 @@ export default {
 </script>
 
 
-<style>
+<style lang="less" scoped>
 #footer-outer-div {
   background-color: green;
   display: flex;
@@ -25,9 +26,12 @@ export default {
 }
 #footer-inner-div {
   flex-shrink: 0;
-}
-
-h2 {
-  color: yellow;
+  h2 {
+    color: yellow;
+  }
+  p {
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    color: yellow;
+  }
 }
 </style>

@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Body from "./molecules/Body.vue";
+import Body from "./organisms/Body.vue";
 
 Vue.use(Router);
 

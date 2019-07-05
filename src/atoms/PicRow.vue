@@ -10,7 +10,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="less" scoped>
 #spaghetOWeiner {
   height: 30vh;
   width: 30vw;

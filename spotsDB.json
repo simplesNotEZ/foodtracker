@@ -1,0 +1,49 @@
+{
+  "spots": [
+    {
+      "id": 1,
+      "name": "Butcher Block Cafe",
+      "date": "July 5th, 2019",
+      "address": "1701 38th St",
+      "description": "Greasy spoon right next to Pepsi Company.  Has seating, breakfast, lunch, and dinner.",
+      "commentCount": 0,
+      "averageRating": 0
+    },
+    {
+      "id": 2,
+      "name": "Black Shirt Brewing",
+      "date": "December 1st, 2018",
+      "address": "",
+      "description": "Greasy spoon right next to Pepsi Company.  Has seating, breakfast, lunch, and dinner.",
+      "commentCount": 0,
+      "averageRating": 0
+    },
+    {
+      "id": 3,
+      "name": "Chub Burger",
+      "date": "September 07, 2018",
+      "address": "",
+      "description": "Greasy spoon right next to Pepsi Company.  Has seating, breakfast, lunch, and dinner.",
+      "commentCount": 0,
+      "averageRating": 0
+    },
+    {
+      "id": 4,
+      "name": "Rino Beer Garden",
+      "date": "May 5th, 2018",
+      "address": "",
+      "description": "Greasy spoon right next to Pepsi Company.  Has seating, breakfast, lunch, and dinner.",
+      "commentCount": 0,
+      "averageRating": 0
+    },
+    {
+      "id": 5,
+      "name": "Welcome Inn",
+      "date": "June 26th, 1999",
+      "address": "3759 Chestnut Pl, Denver, CO 80216",
+      "description": "Greasy spoon right next to Pepsi Company.  Has seating, breakfast, lunch, and dinner.",
+      "commentCount": 0,
+      "averageRating": 0
+    }
+  ]
+}
