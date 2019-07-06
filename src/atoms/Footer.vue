@@ -25,6 +25,7 @@ export default {
   flex-direction: column;
 }
 #footer-inner-div {
+  text-align: center;
   flex-shrink: 0;
   h2 {
     color: yellow;

@@ -3,47 +3,152 @@
     {
       "id": 1,
       "name": "Butcher Block Cafe",
+      "image": "https://nebula.wsimg.com/8e6b0b70af5cbf6ba2919a02a765e03b?AccessKeyId=BB97A913970AFA4F2D51&disposition=0&alloworigin=1",
       "date": "July 5th, 2019",
-      "address": "1701 38th St",
+      "address": "1701 38th St, Denver, CO 80216",
       "description": "Greasy spoon right next to Pepsi Company.  Has seating, breakfast, lunch, and dinner.",
       "commentCount": 0,
-      "averageRating": 0
+      "averageRating": 0,
+      "comments": [
+        {
+          "date": "December 1st, 2018",
+          "reviewer": "Rhonda Jones",
+          "comment": "We love this place and always have.  I think they dose the employees with THC and sprinkle not an insignificant amount of crack on all the food!",
+          "rating": 5
+        },
+        {
+          "date": "September 22, 2018",
+          "reviewer": "Stew Proper",
+          "comment": "It took us an hour to be sat, and then, when I sat down, I sat in gum.  This was actually fortunate, because our food didn't come for over an hour.  I was able to chew on some of the gum I sat in in the meantime.",
+          "rating": 1
+        },
+        {
+          "date": "May 2, 2017",
+          "reviewer": "Walter Mendehlbaum",
+          "comment": "I'd go back.  I was just trying this thing where everything I do must be perceived through a lens of mundanity.  I don't wanna get too up or too down.  I want life at a medium pace, all the time.",
+          "rating": 3
+        }
+      ]
     },
     {
       "id": 2,
       "name": "Black Shirt Brewing",
+      "image": "https://www.milehighhappyhour.com/wp-content/uploads/2014/04/Black-Shirt-Brewing1-1000x500.jpg",
       "date": "December 1st, 2018",
-      "address": "",
-      "description": "Greasy spoon right next to Pepsi Company.  Has seating, breakfast, lunch, and dinner.",
+      "address": "3719 Walnut St, Denver, CO 80205",
+      "description": "Pizza and their own beer on tap",
       "commentCount": 0,
-      "averageRating": 0
+      "averageRating": 0,
+      "comments": [
+        {
+          "date": "December 1st, 2018",
+          "reviewer": "Rhonda Jones",
+          "comment": "We love this place and always have.  I think they dose the employees with THC and sprinkle not an insignificant amount of crack on all the food!",
+          "rating": 5
+        },
+        {
+          "date": "September 22, 2018",
+          "reviewer": "Stew Proper",
+          "comment": "It took us an hour to be sat, and then, when I sat down, I sat in gum.  This was actually fortunate, because our food didn't come for over an hour.  I was able to chew on some of the gum I sat in in the meantime.",
+          "rating": 1
+        },
+        {
+          "date": "May 2, 2017",
+          "reviewer": "Walter Mendehlbaum",
+          "comment": "I'd go back.  I was just trying this thing where everything I do must be perceived through a lens of mundanity.  I don't wanna get too up or too down.  I want life at a medium pace, all the time.",
+          "rating": 3
+        }
+      ]
     },
     {
       "id": 3,
       "name": "Chub Burger",
+      "image": "https://oskarbluesfooderies.com/wp-content/uploads/2017/03/Chub-1-2000x1200.jpg",
       "date": "September 07, 2018",
-      "address": "",
-      "description": "Greasy spoon right next to Pepsi Company.  Has seating, breakfast, lunch, and dinner.",
+      "address": "3490 Larimer St, Denver, CO 80205",
+      "description": "Great burgers, fries, fish n chips, and cheap beer",
       "commentCount": 0,
-      "averageRating": 0
+      "averageRating": 0,
+      "comments": [
+        {
+          "date": "December 1st, 2018",
+          "reviewer": "Rhonda Jones",
+          "comment": "We love this place and always have.  I think they dose the employees with THC and sprinkle not an insignificant amount of crack on all the food!",
+          "rating": 5
+        },
+        {
+          "date": "September 22, 2018",
+          "reviewer": "Stew Proper",
+          "comment": "It took us an hour to be sat, and then, when I sat down, I sat in gum.  This was actually fortunate, because our food didn't come for over an hour.  I was able to chew on some of the gum I sat in in the meantime.",
+          "rating": 1
+        },
+        {
+          "date": "May 2, 2017",
+          "reviewer": "Walter Mendehlbaum",
+          "comment": "I'd go back.  I was just trying this thing where everything I do must be perceived through a lens of mundanity.  I don't wanna get too up or too down.  I want life at a medium pace, all the time.",
+          "rating": 3
+        }
+      ]
     },
     {
       "id": 4,
       "name": "Rino Beer Garden",
+      "image": "https://rinobeergarden.com/wp-content/uploads/2017/06/rino-800x600.png",
       "date": "May 5th, 2018",
-      "address": "",
-      "description": "Greasy spoon right next to Pepsi Company.  Has seating, breakfast, lunch, and dinner.",
+      "address": "3800 Walnut St, Denver, CO 80205",
+      "description": "$8 Burger n Beer Lunch Special.  Many Colorado craft beers on tap.",
       "commentCount": 0,
-      "averageRating": 0
+      "averageRating": 0,
+      "comments": [
+        {
+          "date": "December 1st, 2018",
+          "reviewer": "Rhonda Jones",
+          "comment": "We love this place and always have.  I think they dose the employees with THC and sprinkle not an insignificant amount of crack on all the food!",
+          "rating": 5
+        },
+        {
+          "date": "September 22, 2018",
+          "reviewer": "Stew Proper",
+          "comment": "It took us an hour to be sat, and then, when I sat down, I sat in gum.  This was actually fortunate, because our food didn't come for over an hour.  I was able to chew on some of the gum I sat in in the meantime.",
+          "rating": 1
+        },
+        {
+          "date": "May 2, 2017",
+          "reviewer": "Walter Mendehlbaum",
+          "comment": "I'd go back.  I was just trying this thing where everything I do must be perceived through a lens of mundanity.  I don't wanna get too up or too down.  I want life at a medium pace, all the time.",
+          "rating": 3
+        }
+      ]
     },
     {
       "id": 5,
       "name": "Welcome Inn",
+      "image": "http://www.scootersbars.com/wp-content/uploads/2018/10/1280.jpg",
       "date": "June 26th, 1999",
       "address": "3759 Chestnut Pl, Denver, CO 80216",
-      "description": "Greasy spoon right next to Pepsi Company.  Has seating, breakfast, lunch, and dinner.",
+      "description": "Not sure if they have food.",
       "commentCount": 0,
-      "averageRating": 0
+      "averageRating": 0,
+      "comments": [
+        {
+          "date": "December 1st, 2018",
+          "reviewer": "Rhonda Jones",
+          "comment": "We love this place and always have.  I think they dose the employees with THC and sprinkle not an insignificant amount of crack on all the food!",
+          "rating": 5
+        },
+        {
+          "date": "September 22, 2018",
+          "reviewer": "Stew Proper",
+          "comment": "It took us an hour to be sat, and then, when I sat down, I sat in gum.  This was actually fortunate, because our food didn't come for over an hour.  I was able to chew on some of the gum I sat in in the meantime.",
+          "rating": 1
+        },
+        {
+          "date": "May 2, 2017",
+          "reviewer": "Walter Mendehlbaum",
+          "comment": "I'd go back.  I was just trying this thing where everything I do must be perceived through a lens of mundanity.  I don't wanna get too up or too down.  I want life at a medium pace, all the time.",
+          "rating": 3
+        }
+      ]
     }
   ]
 }

@@ -1,7 +1,11 @@
 <template>
-  <div class="containing-div">
-    <h1>HUB Spots Food Reviews</h1>
-    <PicRow/>
+  <div class="row containing-div">
+    <div class="col twelvecol">
+      <h1>HUB Spots Food Reviews</h1>
+    </div>
+    <div class="col twelvecol">
+      <PicRow/>
+    </div>
   </div>
 </template>
 
@@ -19,6 +23,7 @@ export default {
 <style lang="less" scoped>
 .containing-div {
   margin: 0 0 3vh;
+  text-align: center;
   h1 {
     font-family: "Montserrat", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     font-weight: bold;
