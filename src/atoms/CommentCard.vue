@@ -42,7 +42,8 @@ export default {
     comment: {
       Type: Object,
       required: true
-    }
+    },
+    id: "id"
   }
 };
 </script>

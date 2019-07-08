@@ -8,14 +8,14 @@
 
 <script>
 import Header from "./atoms/Header.vue";
-import Body from "./organisms/Body.vue";
+import SpotsList from "./organisms/SpotsList.vue";
 import Footer from "./atoms/Footer.vue";
 
 export default {
   name: "app",
   components: {
     Header,
-    Body,
+    SpotsList,
     Footer
   }
 };

@@ -2,7 +2,9 @@
   <div class="outer-most-div">
     <div class="row">
       <div class="spot-name col twelvecol">
-        <h1>{{ spot.name }}</h1>
+        <h1>
+          <router-link :to="{ name: 'show-spot', params: { id: spot.id } }">{{ spot.name }}</router-link>
+        </h1>
       </div>
     </div>
     <div class="row">
@@ -23,7 +25,7 @@
           {{ spot.averageRating }}
         </p>
         <div class="row">
-          <div class="nestedcol ninecol">
+          <div class="nestedcol sixcol">
             <label class="card-label">Your Rating:</label>
             <select class="selector">
               <option value="5">5</option>
@@ -33,13 +35,25 @@
               <option value="5">1</option>
             </select>
           </div>
+          <div class="nestedcol threecol leave-comment-div">
+            <router-link
+              :to="{ name: 'add-comment', params: { id: spot.id, spotname: spot.name } }"
+            >
+              <input class="leave-comment-btn" type="button" value="Leave Comment">
+            </router-link>
+          </div>
           <div class="nestedcol threecol comments-btn-div">
-            <input type="button" class="comments-button" value="Show Comments">
+            <input
+              type="button"
+              class="comments-button"
+              @click="showComments"
+              :value="showHideButtonText"
+            >
           </div>
         </div>
       </div>
     </div>
-    <CommentsContainer :spot="spot"/>
+    <CommentsContainer v-if="commentsHidden" :spot="spot"/>
   </div>
 </template>
 
@@ -55,6 +69,22 @@ export default {
     spot: {
       Type: Object,
       required: true
+    }
+  },
+  data() {
+    return {
+      commentsHidden: false,
+      showHideButtonText: "Show Comments"
+    };
+  },
+  methods: {
+    showComments() {
+      this.commentsHidden = !this.commentsHidden;
+      if (this.showHideButtonText === "Show Comments") {
+        this.showHideButtonText = "Hide Comments";
+      } else {
+        this.showHideButtonText = "Show Comments";
+      }
     }
   }
 };
@@ -93,6 +123,25 @@ export default {
   }
   .selector {
     margin-right: 1vw;
+  }
+  .leave-comment-div {
+    text-align: center;
+    .leave-comment-btn {
+      font-family: "Montserrat", "Helvetica Neue", "Helvetica", Arial,
+        sans-serif;
+      font-weight: bold;
+      font-size: 2.5vh;
+      color: #ffcc00;
+      background-color: black;
+      border: 2px solid #ffcc00;
+      border-radius: 3px;
+      padding: 0.75vh 1.15vw;
+      margin-bottom: 2vh;
+    }
+    .leave-comment-btn:hover {
+      background-color: #333333;
+      cursor: pointer;
+    }
   }
   .comments-btn-div {
     .comments-button {

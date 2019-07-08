@@ -7,7 +7,9 @@
     </div>
     <div class="row">
       <div class="add-spot-div col twelvecol">
-        <input class="addSpotButton" type="button" value="Add A Spot">
+        <router-link :to="{ name: 'add-spot' }">
+          <input class="addSpotButton" type="button" value="Add A Spot">
+        </router-link>
       </div>
     </div>
     <div class="row">
@@ -18,32 +20,17 @@
 
 <script>
 import ReviewCard from "../molecules/ReviewCard.vue";
-import axios from "axios";
+import { mapState } from "vuex";
 
 export default {
-  name: "Body",
+  name: "SpotsList",
   components: {
     ReviewCard
   },
-  data() {
-    return {
-      spots: {
-        Type: Array,
-        required: true
-      }
-    };
-  },
   created() {
-    axios
-      .get("http://localhost:3000/spots") // Does a get request
-      .then(response => {
-        console.log(response.data); // For now, logs out the response
-        this.spots = response.data;
-      })
-      .catch(error => {
-        console.log("There was an error:", error.response); // Logs out the error
-      });
-  }
+    this.$store.dispatch("fetchSpots");
+  },
+  computed: mapState(["spots"])
 };
 </script>
 
