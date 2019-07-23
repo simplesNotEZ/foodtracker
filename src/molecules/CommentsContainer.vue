@@ -5,7 +5,7 @@
         <p>There are {{ spot.comments.length }} comments for {{ spot.name }}.</p>
       </div>
     </div>
-    <CommentCard v-for="comment in spot.comments" :key="comment.id" :comment="comment"/>
+    <CommentCard v-for="(comment, index) in spot.comments" :key="index" :comment="comment"/>
   </div>
 </template>
 

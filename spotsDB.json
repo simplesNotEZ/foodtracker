@@ -27,6 +27,18 @@
           "reviewer": "Walter Mendehlbaum",
           "comment": "I'd go back.  I was just trying this thing where everything I do must be perceived through a lens of mundanity.  I don't wanna get too up or too down.  I want life at a medium pace, all the time.",
           "rating": 3
+        },
+        {
+          "date": "July 19, 2019",
+          "reviewer": "Jon R. Pepsiworker",
+          "comment": "These buns is sticky!",
+          "rating": 4
+        },
+        {
+          "date": "July 21, 2019",
+          "reviewer": "Gil Tayson",
+          "comment": "Beer a little too bubly.",
+          "rating": 3
         }
       ]
     },
@@ -57,6 +69,48 @@
           "reviewer": "Walter Mendehlbaum",
           "comment": "I'd go back.  I was just trying this thing where everything I do must be perceived through a lens of mundanity.  I don't wanna get too up or too down.  I want life at a medium pace, all the time.",
           "rating": 3
+        },
+        {
+          "date": "July 19, 2019",
+          "reviewer": "Paul Crusty",
+          "comment": "Hipster mindset oozing through the woodworks.",
+          "rating": 3
+        },
+        {
+          "date": "July 21, 2019",
+          "reviewer": "Bill Rafferty",
+          "comment": "I hate beer, but I love Black Shirts!",
+          "rating": 4
+        },
+        {
+          "date": "July 21, 2019",
+          "reviewer": "Tim McJonalds",
+          "comment": "Craft beer is all the rage!",
+          "rating": 3
+        },
+        {
+          "date": "July 21, 2019",
+          "reviewer": "Bret McNichols",
+          "comment": "Nowhere to park.  I wanna drive drunk!",
+          "rating": 2
+        },
+        {
+          "date": "July 21, 2019",
+          "reviewer": "Tor Eckman",
+          "comment": "Beer's not bubly enough.",
+          "rating": 2
+        },
+        {
+          "date": "July 21, 2019",
+          "reviewer": "Macho Camacho",
+          "comment": "I'm like president and stuff.",
+          "rating": 4
+        },
+        {
+          "date": "July 21, 2019",
+          "reviewer": "Roger Eferder",
+          "comment": "Black shirts are fer pussays!",
+          "rating": 2
         }
       ]
     },
@@ -87,6 +141,12 @@
           "reviewer": "Walter Mendehlbaum",
           "comment": "I'd go back.  I was just trying this thing where everything I do must be perceived through a lens of mundanity.  I don't wanna get too up or too down.  I want life at a medium pace, all the time.",
           "rating": 3
+        },
+        {
+          "date": "July 19, 2019",
+          "reviewer": "Chubs Winfrey",
+          "comment": "I'm only gon get chubbier!",
+          "rating": 5
         }
       ]
     },
@@ -147,6 +207,12 @@
           "reviewer": "Walter Mendehlbaum",
           "comment": "I'd go back.  I was just trying this thing where everything I do must be perceived through a lens of mundanity.  I don't wanna get too up or too down.  I want life at a medium pace, all the time.",
           "rating": 3
+        },
+        {
+          "date": "July 20, 2019",
+          "reviewer": "Ralph CocaCola",
+          "comment": "It's all Pepsi-cola workers in this shithole!",
+          "rating": 1
         }
       ]
     },
@@ -189,6 +255,103 @@
       "image": "http://climbeatcyclerepeat.com/wp-content/uploads/2016/02/20160224-The-ultimate-gooey-cinnamon-buns-0006.jpg",
       "date": "July 6, 2019",
       "address": "64357 N. Rancho Blvd",
+      "description": "",
+      "commentCount": 0,
+      "averageRating": 0,
+      "comments": [
+        {
+          "date": "July 20, 2019",
+          "reviewer": "Lance Bass",
+          "comment": "Too small and scoppy : (",
+          "rating": 1
+        },
+        {
+          "date": "July 20, 2019",
+          "reviewer": "Father Abraham",
+          "comment": "Pretty decent.  They're quite scoopy!",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 24195,
+      "name": "Dingle's Berries",
+      "image": "https://static.wixstatic.com/media/5ae79a_544c7f69cf05482590c238296876209e~mv2.jpg/v1/fill/w_584,h_374,al_c,lg_1,q_80/5ae79a_544c7f69cf05482590c238296876209e~mv2.webp",
+      "date": "July 18, 2019",
+      "address": "",
+      "description": "Really quite juicy berries.  The flavor's a bit off though. : (",
+      "commentCount": 0,
+      "averageRating": 0,
+      "comments": [
+        {
+          "date": "July 20, 2019",
+          "reviewer": "Kal Varnson",
+          "comment": "My oh my!  These berries are a little dry.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 84077,
+      "name": "Francis's Frenchbakes",
+      "image": "https://www.layersofhappiness.com/wp-content/uploads/2015/09/sweet-potato-fries.jpg",
+      "date": "July 18, 2019",
+      "address": "",
+      "description": "Baked not fried son!",
+      "commentCount": 0,
+      "averageRating": 0,
+      "comments": []
+    },
+    {
+      "id": 44240,
+      "name": "Franny's Frenchbakes",
+      "image": "https://www.layersofhappiness.com/wp-content/uploads/2015/09/sweet-potato-fries.jpg",
+      "date": "July 18, 2019",
+      "address": "",
+      "description": "Baked not fried son!",
+      "commentCount": 0,
+      "averageRating": 0,
+      "comments": []
+    },
+    {
+      "id": 98310,
+      "name": "Cupcakes From Hell",
+      "image": "https://i.etsystatic.com/12802604/d/il/991b77/1605233749/il_340x270.1605233749_bvdx.jpg?version=0",
+      "date": "July 18, 2019",
+      "address": "",
+      "description": "Burnt sugar won't kill ya.",
+      "commentCount": 0,
+      "averageRating": 0,
+      "comments": []
+    },
+    {
+      "id": 61837,
+      "name": "TestBitch",
+      "image": "",
+      "date": "July 18, 2019",
+      "address": "",
+      "description": "",
+      "commentCount": 0,
+      "averageRating": 0,
+      "comments": []
+    },
+    {
+      "id": 58543,
+      "name": "Bitch2",
+      "image": "",
+      "date": "July 18, 2019",
+      "address": "",
+      "description": "",
+      "commentCount": 0,
+      "averageRating": 0,
+      "comments": []
+    },
+    {
+      "id": 78560,
+      "name": "Pho King Stupid",
+      "image": "",
+      "date": "July 18, 2019",
+      "address": "",
       "description": "",
       "commentCount": 0,
       "averageRating": 0,

@@ -18,6 +18,9 @@ export default {
   },
   postSpot(spot) {
     return apiClient.post("/spots", spot);
+  },
+  putComment(id, spotWithNewComment) {
+    return apiClient.put("/spots/" + id, spotWithNewComment);
   }
   // updateSpot(id, comment) {
   //   return apiClient.put("/spots/" + id, );

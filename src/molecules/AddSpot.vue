@@ -83,6 +83,9 @@ export default {
       this.$store
         .dispatch("createSpot", this.spot)
         .then(() => {
+          alert("Thanks for adding a spot. You're a gigantic loser!");
+        })
+        .then(() => {
           this.$router.push({
             name: "show-spot",
             params: { id: this.spot.id }

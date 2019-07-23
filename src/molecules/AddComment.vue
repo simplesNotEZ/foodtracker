@@ -58,6 +58,8 @@
 <script>
 import ShowSpotsButton from "../atoms/ShowSpotsButton.vue";
 
+import { EventBus } from "../atoms/event-bus.js";
+
 export default {
   name: "AddComment",
   components: {
@@ -68,17 +70,26 @@ export default {
       comment: this.createFreshCommentObject()
     };
   },
-  props: ["spotname"],
+  props: ["id", "spotname"],
   methods: {
     createComment() {
       console.log("createComment just ran.");
       this.$store
-        .dispatch("addComment", this.comment)
+        .dispatch("addComment", {
+          id: this.id,
+          comment: this.comment
+        })
         .then(() => {
-          this.$router.push({
-            name: "spots-list"
-          });
+          alert("Thanks for adding a comment. You're a gigantic loser!");
+        })
+        .then(() => {
           this.comment = this.createFreshCommentObject();
+          EventBus.$emit("comment-added", {});
+          console.log("EventBus.$emit just ran");
+          this.$router.push({
+            name: "show-spot",
+            params: { id: this.id }
+          });
         })
         .catch(() => {
           console.log("There was a problem creating your comment.");
@@ -113,6 +124,10 @@ export default {
         rating: 5
       };
     }
+  },
+  beforeDestroy() {
+    console.log("beforeDestory for AddComment ran.");
+    // EventBus.$off("comment-added");
   }
 };
 </script>

@@ -62,7 +62,7 @@
         </div>
       </div>
     </div>
-    <CommentsContainer v-if="commentsHidden" :spot="spot"/>
+    <CommentsContainer v-if="showTheComments" :spot="spot"/>
   </div>
 </template>
 
@@ -71,6 +71,8 @@ import { mapState, mapActions } from "vuex";
 import ShowSpotsButton from "../atoms/ShowSpotsButton.vue";
 import CommentsContainer from "./CommentsContainer.vue";
 
+import { EventBus } from "../atoms/event-bus.js";
+
 export default {
   name: "ShowSpot",
   components: {
@@ -78,29 +80,63 @@ export default {
     CommentsContainer
   },
   props: ["id"],
-  created() {
-    this.fetchSpot(this.id);
-  },
   data() {
     return {
-      commentsHidden: false,
-      showHideButtonText: "Show Comments"
+      showTheComments: false,
+      showHideButtonText: "Show Comments",
+      commentAddedCount: 0
     };
   },
   methods: {
     showComments() {
-      this.commentsHidden = !this.commentsHidden;
+      console.log("showComments ran");
+      this.showTheComments = !this.showTheComments;
       if (this.showHideButtonText === "Show Comments") {
         this.showHideButtonText = "Hide Comments";
       } else {
         this.showHideButtonText = "Show Comments";
       }
     },
+    addToCount() {
+      this.commentAddedCount += 1;
+    },
     ...mapActions(["fetchSpot"])
   },
   computed: mapState({
     spot: state => state.spot
-  })
+  }),
+  created() {
+    this.fetchSpot(this.id);
+  },
+  mounted() {
+    console.log(
+      "Mounted for ShowSpot (before EventBus.$on). this.showTheComments: ",
+      this.showTheComments
+    );
+    EventBus.$on("comment-added", this.addToCount());
+    console.log(
+      "Mounted for ShowSpot (after EventBus.$on). this.showTheComments: ",
+      this.showTheComments
+    );
+  },
+  beforeDestroy() {
+    console.log(
+      "ShowSpot | beforeDestroy: checking this.showTheComments: ",
+      this.showTheComments
+    );
+    if (this.showTheComments === true) {
+      this.showTheComments = false;
+    }
+    console.log(
+      "ShowSpot | beforeDestory: after flip of this.showTheComments if it was true: ",
+      this.showTheComments
+    );
+    // this.commentAddedCount = 0;
+    console.log(
+      "ShowSpot | beforeDestory: this.commentAddedCount: ",
+      this.commentAddedCount
+    );
+  }
 };
 </script>
 
